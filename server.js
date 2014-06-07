@@ -11,6 +11,7 @@ var server = app.listen(httpport, function() {
 
 // Serve up content from public directory
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/assets', express.static(__dirname + '/public/assets'));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 
 
@@ -24,16 +25,4 @@ app.get('/', function(req, res) {
 
 app.get('/projects', function(req, res) {
   res.sendfile(__dirname + '/public/html/projects.html');
-});
-
-app.get('/blog', function(req, res) {
-  res.sendfile(__dirname + '/public/html/blog.html');
-});
-
-app.get('/assets/githubIcon', function(req, res) {
-  res.sendfile(__dirname + '/public/assets/GitHub-Mark-Light-64px.png');
-});
-
-app.get('/assets/linkedinIcon', function(req, res) {
-  res.sendfile(__dirname + '/public/assets/Linkedin.png');
 });
