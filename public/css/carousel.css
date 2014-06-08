@@ -31,7 +31,6 @@ body {
   padding-left: 15px;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -133,7 +132,7 @@ body {
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
-    border-radius: 4px;
+
   }
 
   /* Bump up size of carousel content */
