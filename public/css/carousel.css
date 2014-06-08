@@ -4,7 +4,7 @@
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #85A3C2;
 }
 
 
@@ -43,6 +43,14 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+}
+
+.carousel-caption-text {
+  padding: 5px;
+  margin: 10px;
+  background-color: #85A3C2;
+  opacity: 0.9;
+  border-radius: 5px;
 }
 
 /* Declare heights because of positioning of img element */
