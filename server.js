@@ -26,3 +26,7 @@ app.get('/', function(req, res) {
 app.get('/projects', function(req, res) {
   res.sendfile(__dirname + '/public/html/projects.html');
 });
+
+app.get('/blog', function(req, res) {
+  res.redirect('http://rcpeng.com');
+});
