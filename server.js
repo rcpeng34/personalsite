@@ -30,3 +30,7 @@ app.get('/projects', function(req, res) {
 app.get('/blog', function(req, res) {
   res.redirect('http://rcpeng.com');
 });
+
+app.get('/google90d438e345506c6a.html', function(req, res){
+  res.sendfile(__dirname + '/public/html/google90d438e345506c6a.html');
+});
