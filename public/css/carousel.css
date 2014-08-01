@@ -104,7 +104,9 @@ body {
   letter-spacing: -1px;
 }
 
-
+#first_featurette {
+  margin-top: 130px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
